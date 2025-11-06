@@ -10,16 +10,22 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.edmilson.iabrvideo"
+    },
     "android": {
-      "package": "com.edmilson.iabrvideo",
-      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#000000"
-      }
-    },
-    "ios": {
-      "bundleIdentifier": "com.edmilson.iabrvideo"
+      },
+      "package": "com.edmilson.iabrvideo"
     }
   }
 }
